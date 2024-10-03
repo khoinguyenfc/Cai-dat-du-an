@@ -1,23 +1,25 @@
 {
-  "name": "contactbook-backend",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "start": "nodemon server.js"
-  },
-  "author": "Khoi Nguyen",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.21.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.10.0",
-    "eslint": "^9.10.0",
-    "eslint-config-prettier": "^9.1.0",
-    "globals": "^15.9.0",
-    "nodemon": "^3.1.7",
-    "prettier": "^3.3.3"
-  }
+    "name": "contactbook-backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "author": "Gia Han",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.21.0",
+        "mongodb": "^6.9.0"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.11.0",
+        "eslint": "^9.11.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-react": "^7.36.1",
+        "globals": "^15.9.0",
+        "nodemon": "^3.1.7",
+        "prettier": "^3.3.3"
+    }
 }
